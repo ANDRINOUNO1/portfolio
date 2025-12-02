@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* NAVBAR */}
+
       <nav className="navbar">
         <h1 className="logo">MyPortfolio</h1>
         <button
@@ -46,20 +46,18 @@ function App() {
         </ul>
       </nav>
 
-      {/* HERO */}
-      <section
-        id="hero"
-        className={`hero ${visibleSections.includes('hero') ? 'fade-in-up' : 'hidden'}`}
-      >
-        <h2>Hello, I'm <span>Andrew</span></h2>
-        <p>An aspiring web developer</p>
-      </section>
+    <section id="hero" className={`hero ${visibleSections.includes('hero') ? 'fade-in-up' : 'hidden'}`}>
+  <div className="hero-left">
+    <h2>Hello, I'm <span>Andrew</span></h2>
+    <p>An aspiring web developer</p>
+  </div>
 
-      {/* ABOUT */}
-      <section
-        id="about"
-        className={`about ${visibleSections.includes('about') ? 'fade-in-up' : 'hidden'}`}
-      >
+  <div className="hero-right">
+    <img src="/abitch.jpg" alt="Andrew" />
+  </div>
+  </section>
+
+      <section id="about" className={`about ${visibleSections.includes('about') ? 'fade-in-up' : 'hidden'}`}>
         <h2>About Me</h2>
         <p>
           I’m a 4th-year IT student who loves creating modern websites with smooth and friendly UI/UX.
@@ -68,7 +66,6 @@ function App() {
         </p>
       </section>
 
-      {/* PROJECTS */}
       <section
         id="projects"
         className={`projects ${visibleSections.includes('projects') ? 'fade-in-up' : 'hidden'}`}
@@ -79,13 +76,15 @@ function App() {
             <h3>Online Hotel Booking System</h3>
             <p className="description">A website for booking hotels online. It allows users to search for hotels, view available rooms, and book a room.</p>
             <p className="features">Features: Room booking and an Admin dashboard, etc.</p>
-            <p className="tech">Technologies used: HTML, CSS, JavaScript, Angular, Node.js, Express, MySQL, and Tailwind CSS.</p>
+            <p className="tech">Technologies used:</p>
+            <p>  HTML, CSS, JavaScript, Angular, Node.js, Express, MySQL, and Tailwind CSS.</p>
           </div>
           <div className="project-card">
             <h3>Online Dormitory Management System</h3>
             <p className="description">A website for managing dormitories. Users can search, view, and book rooms.</p>
             <p className="features">Features: Admin dashboard, tenant dashboard, accounting dashboard, superadmin dashboard, etc.</p>
-            <p className="tech">Technologies: React, Node.js, Express, MySQL, Tailwind CSS.</p>
+            <p className="tech">Technologies used: </p>
+            <p> React, Node.js, Express, MySQL, Tailwind CSS.</p>
           </div>
           <div className="project-card">
             <h3>Arduino Projects</h3>
@@ -94,16 +93,15 @@ function App() {
         </div>
       </section>
 
-      {/* CONTACT */}
       <section
         id="contact"
         className={`contact ${visibleSections.includes('contact') ? 'fade-in-up' : 'hidden'}`}
       >
         <h2>Contact Me</h2>
+    {/*shit not working*/ }
         <p>Email me at: <a href="mailto:mataandrewczar@gmail.com">mataandrewczar@gmail.com</a></p>
       </section>
 
-      {/* FOOTER */}
       <footer className="footer">
         © {new Date().getFullYear()} Andrew Mata — All Rights Reserved
       </footer>
