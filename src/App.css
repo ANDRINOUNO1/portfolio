@@ -7,7 +7,7 @@
 }
 
 body {
-background: linear-gradient(to bottom, #a8dfff, #ffffff);
+background: linear-gradient(to top, #4bace4, #ffffff);
   color: #333;
   line-height: 1.6;
   transition: background-color 0.3s, color 0.3s;
@@ -132,7 +132,7 @@ background: linear-gradient(to bottom, #a8dfff, #ffffff);
 }
 
 .hero h2 span {
-  color: #0077ff;
+  color: #0860c4;
 }
 
 .hero p {
