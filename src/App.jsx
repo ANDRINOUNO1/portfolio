@@ -76,15 +76,15 @@ function App() {
             <h3> <a href="https://hotelbookingui.onrender.com" target="_blank">Online Hotel Booking System</a></h3>
             <p className="description">A website for booking hotels online. It allows users to search for hotels, view available rooms, and book a room.</p>
             <p className="features">Features: Room booking and an Admin dashboard, etc.</p>
-            <p className="tech">Technologies used:</p>
-            <p>  HTML, CSS, JavaScript, Angular, Node.js, Express, MySQL, and Tailwind CSS.</p>
+            <p className="tech-title">Technologies used:</p>
+            <p className='tech'>  HTML, CSS, JavaScript, Angular, Node.js, Express, MySQL, and Tailwind CSS.</p>
           </div>
           <div className="project-card">
             <h3><a href="https://bcflats.onrender.com" target="blank">Online Dormitory Management System</a></h3>
             <p className="description">A website for managing dormitories. Users can search, view, and book rooms.</p>
             <p className="features">Features: Admin dashboard, tenant dashboard, accounting dashboard, superadmin dashboard, etc.</p>
-            <p className="tech">Technologies used: </p>
-            <p> React, Node.js, Express, MySQL, Tailwind CSS.</p>
+            <p className="tech-title">Technologies used: </p>
+            <p className='tech'> React, Node.js, Express, MySQL, Tailwind CSS.</p>
           </div>
           <div className="project-card">
             <h3>Arduino Projects</h3>
