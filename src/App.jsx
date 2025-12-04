@@ -66,10 +66,8 @@ function App() {
         </p>
       </section>
 
-      <section
-        id="projects"
-        className={`projects ${visibleSections.includes('projects') ? 'fade-in-up' : 'hidden'}`}
-      >
+      <section id="projects" className={`projects ${visibleSections.includes('projects') ? 'fade-in-up' : 'hidden'}`}>
+
         <h2>Projects</h2>
         <div className="project-grid">
           <div className="project-card">
@@ -78,6 +76,15 @@ function App() {
             <p className="features">Features: Room booking and an Admin dashboard, etc.</p>
             <p className="tech-title">Technologies used:</p>
             <p className='tech'>  HTML, CSS, JavaScript, Angular, Node.js, Express, MySQL, and Tailwind CSS.</p>
+           <div className="slider">
+            
+        <div className="slider-track">
+            <img src="/hotel1.jpg" />
+            <img src="/hotel2.jpg" />
+            <img src="/hotel3.jpg" />
+            <img src="/hotel4.jpg" />
+           </div>
+           </div>
           </div>
           <div className="project-card">
             <h3><a href="https://bcflats.onrender.com" target="blank">Online Dormitory Management System</a></h3>
